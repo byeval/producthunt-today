@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="91px" height="90px" viewBox="0 0 91 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>tinder</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tinder" fill-rule="nonzero" fill="#000000">
+            <path d="M45.234,0.03 C20.429,0.03 0.249,20.21 0.249,45.015 C0.249,69.82 20.429,90 45.234,90 C70.039,90 90.219,69.82 90.219,45.015 C90.219,20.21 70.039,0.03 45.234,0.03 Z M62.917,27.826 L53.001,51.79 C52.809,52.255 52.438,52.623 51.973,52.813 L27.963,62.618 C27.702,62.724 27.443,62.464 27.55,62.203 L37.466,38.239 C37.658,37.774 38.029,37.406 38.494,37.216 L62.504,27.411 C62.765,27.305 63.025,27.566 62.917,27.826 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

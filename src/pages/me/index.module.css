@@ -1,0 +1,57 @@
+.header {
+  position: relative;
+  padding: 0 40px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  background-size: contain;
+  background-image: url('https://media.oneshoot.me/assets/window.png?x-oss-process=image/resize,w_800');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #000;
+  z-index: -1;
+}
+
+.bg::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 601px;
+  /* background: linear-gradient(transparent, #000); */
+}
+
+.content {
+  min-height: calc(100vh - 600px);
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.name {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.thatsall {
+  padding: 40px;
+  text-align: center;
+  font-size: 24px;
+}

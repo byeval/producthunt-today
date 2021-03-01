@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 40px;
+}
+
+.date {
+  font-size: 24px;
+}
+
+.title {
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.card {
+  margin: 40px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.art {
+  width: 100%;
+}
+
+.container {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  position: relative;
+}
+
+.thatsall {
+  padding: 40px;
+  text-align: center;
+  font-size: 24px;
+}

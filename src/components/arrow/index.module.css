@@ -1,0 +1,26 @@
+.arrow {
+  position: relative;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+}
+
+.up {
+  border-bottom-width: 20px;
+  top: -2px;
+}
+
+.down {
+  border-top-width: 20px;
+  top: 2px;
+}
+
+.left {
+  border-right-width: 20px;
+  right: 2px;
+}
+
+.right {
+  border-left-width: 20px;
+  left: 2px;
+}

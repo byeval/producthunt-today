@@ -1,0 +1,16 @@
+{
+  "name": "submit-page",
+  "version": "1.0.0",
+  "description": "auto submit page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.14.0",
+    "node-fetch": "^2.6.0",
+    "wx-server-sdk": "latest"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "rootDir": "src",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"],
+      "api/*": ["./src/api/*"],
+      "cpn/*": ["./src/components/*"],
+      "service": ["./src/services/"],
+      "service/*": ["./src/services/*"],
+      "state/*": ["./src/state/*"],
+      "fns": ["./src/fns/"],
+      "fns/*": ["./src/fns/*"]
+    }
+  }
+}

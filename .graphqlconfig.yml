@@ -1,0 +1,7 @@
+schema: ./schema.graphql
+extensions:
+  endpoints:
+    default:
+      url: https://api.producthunt.com/v2/api/graphql
+      headers:
+        Authorization: 'Bearer ly5KKt74n3VvccjTY98mSzyQBVxHSBjQBiDIAjevOgA'

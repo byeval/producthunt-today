@@ -1,0 +1,97 @@
+fragment UserPart on User {
+  id
+  name
+  profileImage
+}
+
+fragment PostParts on Post {
+  id
+  name
+  tagline
+  description
+  slug
+  url
+  website
+  isVoted
+  votesCount
+  commentsCount
+  featuredAt
+  createdAt
+  user {
+    ...UserPart
+  }
+  thumbnail {
+    url
+  }
+  media {
+    type
+    url
+  }
+}
+
+query getPosts(
+  $after: String = null
+  $featured: Boolean = true
+  $postedBefore: DateTime = null
+  $postedAfter: DateTime = null
+) {
+  posts(
+    after: $after
+    featured: $featured
+    postedBefore: $postedBefore
+    postedAfter: $postedAfter
+  ) {
+    edges {
+      node {
+        ...PostParts
+      }
+      cursor
+    }
+    pageInfo {
+      endCursor
+      hasNextPage
+    }
+  }
+}
+
+query getPost($id: ID) {
+  post(id: $id) {
+    ...PostParts
+    makers {
+      ...UserPart
+    }
+    comments(first: 1, order: VOTES_COUNT) {
+      edges {
+        node {
+          id
+          userId
+          createdAt
+          body
+          user {
+            ...UserPart
+          }
+        }
+      }
+    }
+  }
+}
+
+query getUser($id: ID!, $username: String!) {
+  user(id: $id, username: $username) {
+    id
+    name
+    username
+    coverImage
+    profileImage
+    headline
+    isFollowing
+    isMaker
+    votedPosts(first: 1000) {
+      edges {
+        node {
+          ...PostParts
+        }
+      }
+    }
+  }
+}

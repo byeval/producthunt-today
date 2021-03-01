@@ -1,0 +1,54 @@
+.item {
+  display: flex;
+  border-bottom: 1px solid transparent;
+  margin-left: 40px;
+}
+
+.media {
+  padding: 40px 40px 40px 0;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.thumb {
+  width: 120px;
+  height: 120px;
+  border-radius: 6px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 20px 40px 0;
+  overflow: hidden;
+  flex: 1;
+}
+
+.title {
+  font-size: 32px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.sub {
+  font-size: 28px;
+  line-height: 1.25;
+}
+
+.vote {
+  width: 100px;
+  padding-right: 20px;
+  flex-shrink: 0;
+}
+
+.action {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 24px;
+  font-weight: bold;
+}

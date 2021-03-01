@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="91px" height="88px" viewBox="0 0 91 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>profile</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="profile" fill-rule="nonzero" fill="#000000">
+            <g id="Group">
+                <path d="M45.184,49.674 C31.542,49.674 20.443,38.575 20.443,24.933 C20.443,11.291 31.541,0.191 45.184,0.191 C58.827,0.191 69.925,11.29 69.925,24.933 C69.925,38.576 58.826,49.674 45.184,49.674 Z" id="Shape"></path>
+                <path d="M87.802,87.809 C89.02,87.809 90.007,86.822 90.007,85.604 L90.007,79.245 C90.007,68.032 80.885,58.91 69.672,58.91 L20.696,58.91 C9.483,58.91 0.361,68.032 0.361,79.245 L0.361,85.604 C0.361,86.822 1.348,87.809 2.566,87.809 L87.802,87.809 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

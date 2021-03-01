@@ -1,0 +1,58 @@
+.actions {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 3;
+  transform: translateY(100%);
+  transition: transform 0.2s ease-in-out;
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+}
+
+.visible {
+  transform: translateY(0);
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: none;
+  margin: none;
+  line-height: 1;
+  font-size: 32px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:after {
+  display: none;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.cancel {
+  border: none;
+  margin-top: 10px;
+}
+
+.mask {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+}

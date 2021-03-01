@@ -1,0 +1,41 @@
+.navbar {
+  width: 100%;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+
+.icons {
+  position: fixed;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  border-radius: 32px;
+  margin-left: 20rpx;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  padding: 14px 20px;
+  font-size: 28px;
+}
+
+.back {
+  position: relative;
+  top: 4px;
+}
+
+.sep {
+  width: 2px;
+  height: 30px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
